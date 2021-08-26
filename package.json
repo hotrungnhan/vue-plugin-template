@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "private": false,
   "author": "authorname <author@mgmail.com> ",
-  "main": "dist/index.js",
-  "types": "dist/index.d.ts",
+  "main": "index.js",
+  "types": "index.d.ts",
   "files": [
     "dist"
   ],
@@ -18,11 +18,11 @@
     "serve": "vue-cli-service serve",
     "lint": "vue-cli-service lint"
   },
-  "dependencies": {
-    "core-js": "^3.6.5",
+  "peerDependencies": {
     "vue": "^3.0.0"
   },
   "devDependencies": {
+    "vue": "^3.0.0",
     "@typescript-eslint/eslint-plugin": "^4.18.0",
     "@typescript-eslint/parser": "^4.18.0",
     "@vue/cli-plugin-babel": "~4.5.0",
@@ -37,6 +37,5 @@
     "install": "^0.13.0",
     "typescript": "^4.3.5"
   },
-  "keywords": [
-  ]
+  "keywords": []
 }
